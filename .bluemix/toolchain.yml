@@ -31,6 +31,11 @@ template:
       [master](https://github.com/open-toolchain/simple-toolchain.git/tree/master)
 toolchain:
   name: 'simple-toolchain-{{timestamp}}'
+  getting_started: >-
+    Your toolchain is ready.
+
+    Quick start: View your pipelines and see the sample app deployed. View the source code in the Git repos and make
+    a change to trigger a new build and deployment. Evaluate deployment risk in DevOps Insights.
 services:
   sample-repo:
     service_id: githubpublic
